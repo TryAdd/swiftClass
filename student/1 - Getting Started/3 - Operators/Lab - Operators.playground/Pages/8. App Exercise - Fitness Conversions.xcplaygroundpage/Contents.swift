@@ -7,7 +7,10 @@
 
  Now create a constant `percentOfGoal` of type `Double` that equals the percent of the goal that has been reached so far. You'll need to convert your constants of type `Int` to be of type `Double` in your calculation.
  */
+var steps = 5_200
+var goal = 10_000
 
+let percentOfGoal = Double(steps) / Double(goal)
 
 /*:
  _Copyright © 2021 Apple Inc._
