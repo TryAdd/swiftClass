@@ -10,8 +10,11 @@
  
  For each of the metrics above, declare either a constant or a variable and assign it a value corresponding to a hypothetical post. Be sure to use proper naming conventions.
  */
-
-
+var likes = 20 //its changable thats why its var
+var comments = 40 //its changable thats why its var
+let year = 2020 //its one time date
+let month = 10 //its one time date
+let day = 2 //its one time date
 /*:
 [Previous](@previous)  |  page 5 of 10  |  [Next: App Exercise - Fitness Tracker: Constant or Variable?](@next)
  */
