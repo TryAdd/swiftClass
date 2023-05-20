@@ -13,8 +13,8 @@
  */
 let name = "Ahmed"
 var age = 20
-var steps = 20000
-var goal = 2000
+var steps = 20_000
+var goal = 2_000
 var heartRate = 98
 
 /*:
