@@ -20,5 +20,10 @@ class ViewController: UIViewController {
         print("was pressed!")
         mainLabel.text = "This app rocks!"
     }
+    // its extra work just to check things
+//    @IBAction func back(_ sender: Any) {
+//        print("backpress")
+//        mainLabel.text = "I'm learning how to make really awsome apps!"
+//    }
 }
 
