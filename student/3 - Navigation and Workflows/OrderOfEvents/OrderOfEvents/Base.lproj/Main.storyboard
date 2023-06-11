@@ -31,9 +31,22 @@
                     <view key="view" contentMode="scaleToFill" id="KB4-wL-5xw">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Go Back And See If Anything Happened" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mXa-OZ-dyb">
+                                <rect key="frame" x="45.666666666666657" y="415.66666666666669" width="302" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="9Fe-vH-JZL"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mXa-OZ-dyb" firstAttribute="centerY" secondItem="KB4-wL-5xw" secondAttribute="centerY" id="BWa-xl-5HI"/>
+                            <constraint firstItem="mXa-OZ-dyb" firstAttribute="centerX" secondItem="KB4-wL-5xw" secondAttribute="centerX" id="WhD-Jc-gnz"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Wge-U8-AEh"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ch3-5J-hmL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -46,9 +59,22 @@
                     <view key="view" contentMode="scaleToFill" id="Li9-Ep-8CI">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nothing has happend yet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oPc-H8-cM1">
+                                <rect key="frame" x="100.66666666666669" y="415.66666666666669" width="192" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="las-7c-8q9"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="oPc-H8-cM1" firstAttribute="centerY" secondItem="Li9-Ep-8CI" secondAttribute="centerY" id="QK1-xe-746"/>
+                            <constraint firstItem="oPc-H8-cM1" firstAttribute="centerX" secondItem="Li9-Ep-8CI" secondAttribute="centerX" id="sMc-J3-6bV"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="owt-Tc-Jb1"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ccx-Xm-bKv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -65,7 +91,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ruM-DU-fTq"/>
+                        <segue destination="YdP-JJ-Xnx" kind="relationship" relationship="rootViewController" id="iR0-8q-vME"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="otI-qH-ylL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
